@@ -1,8 +1,14 @@
 aid: fyld
 name: FYLD
-description: 'FYLD is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Industrial, Energy & IoT. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  FYLD is an AI-native frontline intelligence platform for the global critical-infrastructure
+  sector, turning field-operations data into real-time, structured intelligence for utilities,
+  energy, and heavy-civils operators. Its products include the FYLD Platform for work execution,
+  FYLD Control Room for remote supervision, and FYLD ShowMe for customer self-service reporting,
+  serving managers, fieldworkers, contractors, and civil engineers via web and mobile (iOS and
+  Android) apps. FYLD is a Partech portfolio company. As of this profile FYLD publishes no public
+  developer API, SDKs, or developer portal; integration is delivered through partnerships such as
+  Procore, and this record captures its public identity, security, and trust surface.
 url: https://raw.githubusercontent.com/api-evangelist/fyld/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,32 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fyld.ai/hubfs/FYLD%20Website%20-%20Featured%20Image.png
 tags:
 - Company
 - Industrial, Energy & Iot
+- Field Operations
+- Utilities
+- Energy
+- Construction
+- Artificial Intelligence
+- Frontline Intelligence
+- Infrastructure
+- Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fyld-domain-security.yml
+- type: TrustCenter
+  url: security/fyld-trust-center.yml
 - type: Website
   url: https://fyld.ai/
+- type: Support
+  url: https://help.fyld.ai/en
+- type: HelpCenter
+  url: https://help.fyld.ai/en
+- type: Blog
+  url: https://fyld.ai/resources
+- type: PrivacyPolicy
+  url: https://fyld.ai/privacy-policy
+- type: TermsOfService
+  url: https://fyld.ai/terms-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

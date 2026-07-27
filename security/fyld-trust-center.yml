@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.fyld.ai/
+provider: Vanta
+evidence:
+  - source: https://trust.fyld.ai/
+    keywords: [trust center, security, compliance]
+    detail: >-
+      Live "FYLD Trust Center" hosted on Vanta (data-signature-manifest-url +
+      app.eu.vanta.com trust-report assets). Title/OpenGraph confirm the FYLD
+      Trust Center. Named certifications are gated behind the Vanta portal and
+      were not machine-verifiable from the public shell, so none are asserted
+      here (no fabrication).
+certifications: []
+notes: >-
+  FYLD publishes a Vanta-backed public Trust Center at trust.fyld.ai. Specific
+  frameworks (e.g. SOC 2 / ISO 27001) are served dynamically by Vanta and could
+  not be confirmed from static HTML; request access via the portal to enumerate.
