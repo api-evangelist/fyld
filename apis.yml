@@ -40,7 +40,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 image: https://fyld.ai/hubfs/FYLD%20Website%20-%20Featured%20Image.png
 tags:
 - Company
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://fyld.ai/resources/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/fyld-domain-security.yml
 - type: TrustCenter
